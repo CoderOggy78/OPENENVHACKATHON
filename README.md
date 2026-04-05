@@ -43,7 +43,7 @@ A production-grade, realistic quantitative trading environment for reinforcement
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/trading_env.git
+git clone https://github.com/CoderOggy78/OPENENVHACKATHON.git
 cd trading_env
 
 # Create virtual environment
