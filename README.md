@@ -295,7 +295,7 @@ R(t) = 0.6 * return_component + 0.2 * risk_penalty + 0.2 * trade_efficiency
 1. **Return Component** (60%)
    - Daily return scaled by 100
    - R_return = (V_t - V_{t-1}) / V_{t-1} * 100
-   - Range: [-10, +10]
+   - Range: [-10, +10] 
 
 2. **Risk Penalty** (20%)
    - Drawdown penalty: -5 * (max_value - current_value) / max_value
