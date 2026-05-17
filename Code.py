@@ -18,7 +18,7 @@ for _ in range(50):
     if done:
         break
 
-print(f"Final portfolio: ${info['portfolio_value']:.2f}")
+print(f"Final portfolio: ${info['portfolio_value']:.2f}") 
 
 
 # ============================================================================
