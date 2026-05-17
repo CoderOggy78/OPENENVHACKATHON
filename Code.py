@@ -10,7 +10,7 @@ from agents import RandomAgent
 task = TaskFactory.create_easy_task()
 env = TradingEnvironment(task.config, MarketDataLoader())
 agent = RandomAgent(task.config.symbols)
-state, _ = env.reset(seed=42)
+state, _ = env.reset(seed=42) 
 
 for _ in range(50):
     action = agent.act(state, {})
