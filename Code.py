@@ -86,9 +86,7 @@ class SimpleMovingAverageAgent(BaseAgent):
     def act(self, state, info):
         """Generate action based on MA crossover."""
         symbol = self.symbols[0]
-        
-        # In a real implementation, extract MA values from state
-        # For now, use a simple heuristic
+
         step_return = info.get('metrics', {}).get('step_return', 0)
         
         if step_return > 0.01 and not self.prev_signal:
