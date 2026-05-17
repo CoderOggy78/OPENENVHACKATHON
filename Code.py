@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""
-QUICK START GUIDE - QuantitativeTrading-v1
-
-Copy & paste examples to get started immediately.
-"""
-
 # ============================================================================
 # EXAMPLE 1: Simplest Possible Usage (5 lines of code)
 # ============================================================================
