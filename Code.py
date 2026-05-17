@@ -5,7 +5,7 @@
 
 from env import TradingEnvironment, MarketDataLoader
 from tasks import TaskFactory
-from agents import RandomAgent
+from agents import RandomAgent 
 
 task = TaskFactory.create_easy_task()
 env = TradingEnvironment(task.config, MarketDataLoader())
