@@ -1,4 +1,4 @@
-# QuantitativeTrading-v1: OpenEnv-Compatible Trading Environment 
+# QuantXRL: OpenEnv-Compatible Trading Environment 
 
 A production-grade, realistic quantitative trading environment for reinforcement learning agents. Supports portfolio optimization, algorithmic trading, and market-making strategies with professional-grade risk management and technical analysis.
 
